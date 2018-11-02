@@ -1,0 +1,69 @@
+body{
+background-color: #DAF7A6;
+/*background:url("http://localhost//UI-PRACTICE/anji/assets/images/back.jpg");*/
+background-size: cover;
+}
+.loginbox{
+	width: 486px;
+    height: 411px;
+    background-color: #08CDD5;
+    border-radius: 20px 20px;
+    margin: 153px 0px 0px 500px;
+    }
+ .img{
+ 	    position: absolute;
+    margin: -47px 0px 0px 689px;
+    }
+ .fields{
+ 	/*background-color: white;*/
+ 	    width: 310px;
+    margin: 110px 0px 0px 77px;
+    position: absolute;
+
+ }
+ .fields p{
+ 	color:white;
+ 	font-size: 19px;
+ 	padding: 0px;
+ 	/*font-weight:bold;*/
+
+ }
+ .loginbox h2{
+ position: absolute;
+    margin: 73px 0px 0px 187px;
+    color: white;
+ } 	
+ .fields input[type="text"],input[type="password"]{
+ 	padding: 0px;
+ 	background-color: transparent;
+ 	border:none;outline: none;
+ 	border-bottom:solid white;
+ 	color:white;
+ 	font-size: 18px;
+ }
+.fields input{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 15px;
+	/*color:white;*/
+}
+.fields input[type="submit"]{
+		background-color: yellow;
+		color: #08CDD5;
+		border-radius: 20px 20px;
+		padding: 10px;
+		border: none;
+		font-size: 21px;
+		cursor: pointer;
+
+}
+.fields input[type="text"]::placeholder{
+color:#8B8280;
+}
+.fields input[type="password"]::placeholder{
+color:#8B8280;
+}
+.fields input[type="submit"]:hover{
+	/*background-color:;*/
+	color:green;
+}
