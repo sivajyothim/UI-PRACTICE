@@ -49,7 +49,7 @@ background-size: cover;
 }
 .fields input[type="submit"]{
 		background-color: yellow;
-		color: #08CDD5;
+		color: green;
 		border-radius: 20px 20px;
 		padding: 10px;
 		border: none;
@@ -64,6 +64,6 @@ color:#8B8280;
 color:#8B8280;
 }
 .fields input[type="submit"]:hover{
-	/*background-color:;*/
-	color:green;
+	background-color: yellow;
+	color:#08CDD5;
 }
